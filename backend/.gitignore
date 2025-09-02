@@ -29,3 +29,13 @@ ENV/
 env/
 .venv/
 
+# Ignore ML model files
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+*.joblib
+*.pickle
+*.pkl
+

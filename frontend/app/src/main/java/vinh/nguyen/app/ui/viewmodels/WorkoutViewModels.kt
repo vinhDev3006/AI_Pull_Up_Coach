@@ -173,7 +173,7 @@ class WorkoutViewModel : ViewModel() {
     }
 
     /**
-     * Check if we should speak this message
+     * Check if this should speak this message
      * Only speak on rep changes or important state changes
      */
     fun shouldSpeak(motivation: String, repCount: Int): Boolean {

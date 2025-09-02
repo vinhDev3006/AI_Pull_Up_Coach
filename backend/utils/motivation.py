@@ -16,7 +16,7 @@ def get_motivation_text(rep_count: int) -> str:
         "Strong and steady wins!",
         "Feel the burn now!",
         "One more, then another!",
-        "Beast mode is activated!",
+        "Warrior spirit never quits!",
         "You're crushing it today!",
         "Power through, stay focused!",
         "Champions never give up!",
@@ -31,7 +31,7 @@ def get_motivation_text(rep_count: int) -> str:
         "Victory is earned daily!",
         "Relentless pursuit of excellence!",
         "Break barriers, exceed expectations!",
-        "Warrior spirit never quits!"
+        "Beast mode is activated!"
     ]
     
     # Use rep_count to deterministically select message (cycles through all 20)
@@ -40,11 +40,3 @@ def get_motivation_text(rep_count: int) -> str:
     
     # Combine rep count with motivational message
     return f"Rep {rep_count} - {selected_message}"
-
-# Example usage:
-if __name__ == "__main__":
-    # Test the function
-    for i in range(1, 6):
-        print(get_motivation_text(i, "squat"))
-        print(get_motivation_text(i, "pushup"))
-        print("---")

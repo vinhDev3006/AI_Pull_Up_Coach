@@ -140,6 +140,7 @@ python-multipart==0.0.20
 cd backend
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+# Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser  (On Windows if permission deny)
 pip install -r requirements.txt
 
 # Run backend server (different modes)
